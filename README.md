@@ -3,7 +3,7 @@
 MasterChef Consumer Availability Management
 ===========================================
 
-This project is designed to manage the availability of consumers for a weekly menu system. It allows for tracking which consumers are available during specific weeks and facilitates the assignment of menus based on their availability.
+This project is designed to manage the availability of consumers to receive a weekly menu. Track which consumers are available during specific weeks and facilitates the assignment of menus based on their availability.
 
 Table of Contents
 -----------------
@@ -62,10 +62,7 @@ This class manages the overall availability data for consumers.
 Usage
 -----
 
-To use this code, simply run the `main()` function. The function initializes the `MasterChef` class with an empty calendar and iterates through each week of the year, checking for consumer availability and managing menu assignments.
-
-    if __name__ == '__main__':
-        main()
+To use this code, simply run the `uv run app.py`. The function initializes the `MasterChef` class with an empty calendar and iterates through each week of the year, checking for consumer availability and managing menu assignments.
     
 
 ### Example Output

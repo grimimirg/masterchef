@@ -106,7 +106,7 @@ class MasterChef:
         consumerAvailability = ConsumerAvailability(weekNumber, consumer)
 
         self.consumersAvailabilities.append(consumerAvailability)
-        self.groupedConsumerAvailabilities[consumer].append(weekNumber)
+        self.groupedConsumersAvailabilities[consumer].append(weekNumber)
 
     def removeAvailability(self, weekNumber, consumer):
         consumerAvailabilityToRemove = None
